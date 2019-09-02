@@ -1,0 +1,60 @@
+a {
+    text-decoration: none; 
+    color:white;
+    margin:1rem;
+   
+  }
+  .header{
+   
+    display:flex;
+    justify-content:space-between;
+    position:fixed;
+   
+    z-index:1000;
+    width: 100%;
+    
+    font-weight: 100;
+    font-size: 1,5rem;
+    height: 10%;
+    text-transform:uppercase;
+    align-items: center;
+    
+    box-shadow:0 0.2rem 0.25rem;
+   background-color: blue
+  }
+  
+  .button-link{
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+  }
+  .button-login{
+      border:none;
+      width: 6rem;
+      background-color:#217781;
+      border-radius:0.2rem;
+      height:2rem ;
+      color: white ;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease-out;
+  }
+  
+  .button-login:focus{
+      outline:none;
+      
+  
+  }
+  .active{
+   color: yellow;
+   font-weight: 800;
+  }
+  
+  @media (min-width: 1024px){
+  
+  
+  
+  
+  
+  
+  }

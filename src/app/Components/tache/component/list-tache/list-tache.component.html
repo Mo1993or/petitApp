@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let tache of taches" appDirective [etat]="tache.etat">
+    <span class="float-left col-sm-3">{{ tache.titre }}</span>
+    <span class="text-center col-sm-3">{{ tache.etat }}</span>
+
+
+  </li>
+</ul>
